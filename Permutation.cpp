@@ -19,7 +19,7 @@ void permute(string a, int l, int r)
 }
 int main()
 {
-    string a="1234";
+    string a="123";
     int n=a.size();
     permute(a,0,n-1);
     return 0;
